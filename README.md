@@ -15,7 +15,7 @@ The main R code used for the project, located in the top-level directory.
 
 * __cevf.R:__ Contains functions for calibrating the CEV forward model to market implied volatility data by least squares fitting of the market smiles. Contains a fitting function, objective function for the fitting function, implied volatility approximation for the CEV forward model, and a function to plot the model's fit on a smile.
 
-* __ivol_util.R:__ Contains implied volatility related utility functions, as well as data on ATM forward levels times to expiration, and discount curve. Contains a discounting function, unused function for extracting Black volatilities, a function to plot an implied vol surface, functions to return Black call/put prices, and a useful strike sampling function. The file's end also contains several blocks of commented-out code that I commonly used and ended up recording so I wouldn't forget them.
+* __ivol_util.R:__ Contains implied volatility related utility functions, as well as data on ATM forward levels times to expiration, and discount curve. Contains a discounting function, unused function for extracting Black volatilities, a function to plot an implied vol surface, functions to return Black call/put prices, and a useful strike sampling function. The end of the file contains several blocks of commonly used, commented-out code that I recorded as reference.
 
 * __sabr.R:__ Contains functions for calibrating the SABR model to market implied volatility data by least squares fitting. Contains the same functions as in cevf.R but modified for SABR.
 
