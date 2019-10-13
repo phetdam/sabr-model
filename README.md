@@ -1,7 +1,5 @@
 # sabr_model
 
-![./banner.png](./banner.png)
-
 by Derek Huang
 
 _last updated on: 10-13-2019_  
