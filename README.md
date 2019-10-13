@@ -1,6 +1,6 @@
 # sabr_model
 
-![./banner.png] (./banner.png)
+![./banner.png](./banner.png)
 
 by Derek Huang
 
