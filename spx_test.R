@@ -8,6 +8,10 @@
 #
 # Changelog:
 #
+# 05-01-2020
+#
+# changed data directory, as data file is not in current directory.
+#
 # 08-20-2019
 #
 # initial creation. requires both ivol_util.R, sabr.R, and the data file
@@ -17,7 +21,7 @@
 source("./ivol_util.R")
 source("./sabr.R")
 # read data from file
-spx_data <- read.csv("./e-mini_smile_12-2019.csv")
+spx_data <- read.csv("./data/e-mini_smile_12-2019.csv")
 # choose a priori beta, we will choose beta = 1 for demo purposes
 beta <- 1
 # calibrate and get parameter list; spx_atmf and spx_Tx are vectors of ATM forward
