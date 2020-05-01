@@ -8,6 +8,10 @@
 #
 # Changelog:
 #
+# 04-26-2020
+#
+# changed data directory; data file is not in current directory.
+#
 # 08-20-2019
 #
 # initial creation. requires both ivol_util.R, sabr.R, and the data file
@@ -17,7 +21,7 @@
 source("./ivol_util.R")
 source("./sabr.R")
 # read data from file
-hh_data <- read.csv("./hh_smile_11-2019.csv")
+hh_data <- read.csv("./data/hh_smile_11-2019.csv")
 # choose a priori beta, we will choose beta = 1 / 2 for demo purposes
 beta <- 1 / 2
 # calibrate and get parameter list; hh_atmf and hh_Tx are vectors of ATM forward
