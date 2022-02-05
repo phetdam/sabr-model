@@ -47,18 +47,19 @@ Contains ``hh_test.R`` and ``spx_test.R``, short demos that calibrate a model
 (specify within the script) to a particular smile (specify in the script). As
 noted in their heading comments, please run them from the R interpreter by
 ``source()``\ ing them, as graphics problems seem to occur when using RScript.
-Currently configured to fit the SABR model.
+Currently configured to fit SABR.
 
 ``*_fits``
 ~~~~~~~~~~
 
-Contains ``.png`` files depicting sample fits of CEV forward and SABR model
+Contains ``.png`` files showing sample fits of CEV forward and SABR model
 fits to the implied vol data. ``hh_*`` directories contain fits to implied vol
 data from European options on Henry Hub natural gas futures, while ``spx_*``
 directories contain fits to implied vol data from European options on E-mini
 S&P 500 futures. ``*_cevf_*`` indicates the CEV forward model is being fitted,
-while ``*_sabr_*`` indicates the SABR model is being fitted. Most SABR fits are
-pretty good.
+while ``*_sabr_*`` indicates the SABR model is being fitted.
+
+Most SABR fits are pretty good.
 
 ``presentation``
 ~~~~~~~~~~~~~~~~
