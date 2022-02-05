@@ -57,8 +57,9 @@ implied vol data. ``hh_*`` directories contain fits to implied vol data from
 European options on Henry Hub natural gas futures, while ``spx_*`` directories
 contain fits to implied vol data from European options on E-mini S&P 500
 futures. ``*_cevf_*`` indicates the CEV forward model is being fitted, while
-``*_sabr_*`` indicates the SABR model is being fitted. Most SABR fits are
-pretty good.
+``*_sabr_*`` indicates the SABR model is being fitted. Although not perfect,
+SABR fits are pretty good for the most part, while the CEV forward model fits
+tend to be much worse.
 
 ``presentation``
 ~~~~~~~~~~~~~~~~
