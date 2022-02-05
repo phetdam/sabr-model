@@ -52,14 +52,13 @@ Currently configured to fit SABR.
 ``*_fits``
 ~~~~~~~~~~
 
-Contains ``.png`` files showing sample fits of CEV forward and SABR model
-fits to the implied vol data. ``hh_*`` directories contain fits to implied vol
-data from European options on Henry Hub natural gas futures, while ``spx_*``
-directories contain fits to implied vol data from European options on E-mini
-S&P 500 futures. ``*_cevf_*`` indicates the CEV forward model is being fitted,
-while ``*_sabr_*`` indicates the SABR model is being fitted.
-
-Most SABR fits are pretty good.
+Contains ``.png`` files with sample fits of CEV forward and SABR model fits to
+implied vol data. ``hh_*`` directories contain fits to implied vol data from
+European options on Henry Hub natural gas futures, while ``spx_*`` directories
+contain fits to implied vol data from European options on E-mini S&P 500
+futures. ``*_cevf_*`` indicates the CEV forward model is being fitted, while
+``*_sabr_*`` indicates the SABR model is being fitted. Most SABR fits are
+pretty good.
 
 ``presentation``
 ~~~~~~~~~~~~~~~~
