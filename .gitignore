@@ -1,0 +1,21 @@
+# ignore R data files
+.RData
+.Rhistory
+# ignore incomplete longstaff-schwartz implementation
+lsm_put.R
+# ignore Excel files
+**/*.xls*
+# ignore American/European option raw data and manual option smile data files
+data/*_american_*.csv
+data/*_european_*.csv
+data/*_manual_*.csv
+# ignore specific SPX SABR fit images
+spx_sabr_fits/spx_sabr0_09-2019.png
+spx_sabr_fits/spx_sabr0_atm_10-2019.png
+spx_sabr_fits/spx_sabr0_atm_10-2019_bad.png
+spx_sabr_fits/spx_sabr0_atm_10-2019_naive.png
+spx_sabr_fits/spx_sabr_cir_atm_10-2019.png
+spx_sabr_fits/spx_sabr_cir_atm_10-2019_bg.png
+# ignore bad/unused directories
+spx_ivol_09-2019_atm_diffr
+spx_sabr_fits_wrong
